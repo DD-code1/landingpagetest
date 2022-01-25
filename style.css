@@ -103,7 +103,7 @@ header {
 }
 
 #storylayover {
-  background-color: black;
+  background-color: green;
   width: 100%;
   opacity: 0.9;
 }
@@ -117,7 +117,7 @@ header {
   margin-bottom: 1vw;
   font-size: 1.5vw;
   
-  color: white;
+  color: yellow;
   border-radius: 5px;
   cursor: pointer;
   
@@ -157,17 +157,13 @@ header {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
   }
-
-
 @media only screen and (max-width: 800px){
   body {
   flex-wrap: wrap;
   }
-  
   #header-img {
   width: 30vw;
   }
-  
   .nav-link {
   font-size: 2.5vw; 
   }
